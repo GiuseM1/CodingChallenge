@@ -1,0 +1,71 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.contenitore{
+ width: 1100px;
+ margin: auto;
+ border-radius: 10px;
+ background-color: #0000006b;
+ padding-bottom: 80px;
+ padding-top: 5px;
+ margin-top: 25px;}
+
+.logo{
+  width: 230px;
+  display: block;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;}
+
+.text, .button{text-align: center;}
+
+.text{
+  font-family: siberian;
+  color:#27d916;
+  margin-top: 0px;
+  margin-bottom: 2px;}
+
+.button{
+  border: 12px solid #27d916;
+  background-color: #27d916;
+  margin-left: 70px;
+  margin-right:70px;}
+
+.scooter{margin: 0px 70px}
+
+.namescooter{
+  font-family:sans-serif;
+  color: white;
+  margin-top: 21px;
+  margin-bottom: 2px;}
+
+.namevia, .statocarica{
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color:white;}
+
+.arrow:before{content: "\21A6";}
+
+.namescooter, .statocarica{display: inline-block;}
+
+.chargebar1, .chargebar2, .chargebar3{
+  border-radius:10px;
+  border: 15px solid;
+  margin-top: 0px;}
+
+.chargebar1{
+  border-color: #F7B452;
+  background-color: #F7B452;
+  margin-right: 65%;}
+
+.chargebar2{
+  border-color: #23c800;
+  background-color: #23c800;
+  margin-right: 35%;}
+
+.chargebar3{
+  border-color: #d81e1e;
+  background-color: #d81e1e;
+  margin-right: 85%;}
